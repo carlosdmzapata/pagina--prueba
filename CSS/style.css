@@ -28,7 +28,7 @@ li {
     display: flex;
     justify-content: flex-end;
     padding: 2%;
-    background-color: #252525;
+    background: linear-gradient(to bottom, #1D4350, #182848) ;
     color: whitesmoke;
 }
 
@@ -43,7 +43,7 @@ li {
 }
 
 .cajaLogo {
-    background-color: #FF0000;
+    background: linear-gradient(to right,  #182848, #1D4350);
     color: white;
     font-style: italic;
     font-weight: bold;
@@ -52,12 +52,18 @@ li {
 
 .cajaFraseHeader {
     display: flex;
-    background-color: #AF0404;
+    background: linear-gradient(to right, #1D4350, #182848);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 30%;
     color: white;
+    text-shadow: 0.2em 0.2em 0.2em #252525;
+}
+
+h1 {
+    font-family: "Press Start 2P";
+    transform: translate(-150px, 0);
 }
 
 
@@ -67,11 +73,13 @@ li {
 .contenedorMain {
     display: flex;
     flex-direction: row;
+    background: linear-gradient(to bottom,#182848, #1D4350) ;
 }
 
 main {
     display: flex;
     flex-direction: row;
+    background: linear-gradient(to bottom,#182848, #1D4350) ;
 }
 
 .contenedorLista {
@@ -167,7 +175,7 @@ main {
 /*FOOTER*/
 
 footer {
-    background-color: #FF0000;
+    background-color: #182848;
     padding: 1%;
     color: whitesmoke;
     display: flex;
