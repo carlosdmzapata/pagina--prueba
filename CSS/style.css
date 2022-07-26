@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contenedorPadre {
+    display: flex;
+    flex-direction: column;
+}
+/*HEADER*/
+.contenedorHeader {
+    display: flex;
+    flex-direction: column;
+    background-color: #AF0404;
+}
+               /*Login SignUp*/
+.contenedorLoSi {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%;
+    background-color: #252525;
+    color: whitesmoke;
+}
+
+.login {
+    padding-right: 1%;
+}
+
+                /*Logo frase*/
+.contenedorLogoFrase {
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaLogo {
+    background-color: #FF0000;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    padding: 3%;
+}
+
+.cajaFraseHeader {
+    display: flex;
+    background-color: #AF0404;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    color: white;
+}
+
+
+
+/*MAIN*/
+
+.contenedorMain {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorLista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #414141;
+}
+
+.menu {
+    color: whitesmoke;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #414141;
+}
+
+.contenedorRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #414141;
+    padding: 20%;
+    padding-left: 32.6%;
+    padding-top: 30%;
+    padding-bottom: 20%;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 55%;
+    background-color: #414141;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    background-color: #414141;
+    color: white;
+    text-align: justify;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 17.8%;
+    background-color: #414141;
+}
+
+.torneos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 14.5%;
+    background-color: #414141;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50.2%;
+    padding-right: 60%;
+    background-color: #414141;
+    padding-top: 10%;
+    padding-bottom: 9%;
+    color: whitesmoke;
+}
+
+.tienda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 14.5%;
+    background-color: #414141;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #FF0000;
+    padding: 1%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+
+}
