@@ -34,6 +34,19 @@ li {
 
 .login {
     padding-right: 1%;
+    transition: all 0.2s;
+}
+
+.login:hover {
+    color: grey;
+}
+
+.signUp {
+    transition: all 0.2s;
+}
+
+.signUp:hover {
+    color: grey;
 }
 
                 /*Logo frase*/
@@ -170,6 +183,22 @@ main {
     align-items: center;
     padding-left: 14.5%;
     background-color: #414141;
+}
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+.cajaLogo h2 {
+    animation-name: texto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 /*FOOTER*/
